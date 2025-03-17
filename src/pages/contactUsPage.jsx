@@ -40,7 +40,7 @@ function Contact () {
     <>
       <Navbar />
       <div 
-      className="flex flex-col md:flex-row items-left md:items-start gap-10 md:gap-50 max-w-4xl mx-auto mt-[200px] md:mt-[280px] px-8 md:px-10">
+      className="flex flex-col md:flex-row items-left md:items-start gap-10 md:gap-30 max-w-4xl mx-auto mt-[200px] md:mt-[280px] px-8 md:px-10">
         <div className="md:w-1/3 text-left">
             <div className="group font-raleway">
             <h2 className="text-[30px] md:text-[50px] text-[#2A3B3B] font-thin leading-[1.2em] tracking-[.03em]  uppercase font-raleway">Contact</h2>
