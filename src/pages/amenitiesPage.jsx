@@ -80,7 +80,7 @@ function Amenities() {
 
    
 
-      <div className="flex flex-col md:flex-row items-left md:items-start gap-10 md:gap-30 max-w-5xl mx-auto px-8 md:px-10">
+      <div className="flex flex-col md:flex-row items-left md:items-start gap-10 md:gap-30 max-w-5xl mx-auto mb-10 px-8 md:px-10">
         <div className="md:w-1/2 text-left">
           <h2 className="text-[25px] md:text-[40px] text-[#2A3B3B] font-thin leading-[1.2em] tracking-[.03em] uppercase font-raleway">
             Guest Support
@@ -116,7 +116,7 @@ function Amenities() {
       </div>
 
 
-      <div className="flex flex-col md:flex-row items-left md:items-start gap-10 md:gap-30 max-w-5xl mx-auto px-8 md:px-10">
+      <div className="flex flex-col md:flex-row items-left md:items-start gap-10 md:gap-30 max-w-5xl mx-auto mb-10 px-8 md:px-10">
         <div className="md:w-1/2 order-last md:order-first">
           <p className="text-[14px] md:text-[16px] text-[#4a4a4a] font-light leading-[1.50em] tracking-[.07em] mb-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit...
