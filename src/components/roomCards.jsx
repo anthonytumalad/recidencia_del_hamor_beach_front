@@ -87,7 +87,7 @@ const CustomModal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;
   
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
+    <div className="fixed  inset-0 z-50 flex items-center justify-center overflow-y-auto">
     {/* Backdrop */}
     <div 
       className={`fixed inset-0 bg-black transition-opacity duration-300 ${
@@ -98,8 +98,8 @@ const CustomModal = ({ isOpen, onClose, children }) => {
   
     {/* Modal Content */}
     <div 
-      className={`fixed inset-4 sm:inset-6 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 
-                 bg-white rounded-lg shadow-lg w-full max-w-[90vw] sm:max-w-4xl md:max-w-6xl 
+      className={`fixed inset-4 sm:inset-6  md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 
+                 bg-white rounded-lg  shadow-lg w-full max-w-[90vw] sm:max-w-4xl md:max-w-6xl 
                  h-auto max-h-[85vh] sm:max-h-[90vh] 
                  transition-all duration-300 overflow-y-auto
                  ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
@@ -129,7 +129,7 @@ const VillaModal = ({ isOpen, onClose, villa }) => {
 
   return (
     <CustomModal isOpen={isOpen} onClose={onClose}>
-      <div className="flex flex-col md:flex-row h-full overflow-hidden font-raleway">
+      <div className="flex flex-col md:flex-row h-full  overflow-hidden font-raleway">
         {/* Close Button */}
         <button 
           onClick={onClose}
@@ -141,7 +141,7 @@ const VillaModal = ({ isOpen, onClose, villa }) => {
           />
         </button>
         {/* Gallery Section - Moves Above on Small Screens */}
-        <div className="w-full md:w-1/2 bg-gray-100 relative h-60 md:h-auto order-1 md:order-2">
+        <div className="w-full md:w-1/2 bg-gray-100 relative  h-60 md:h-auto order-1 md:order-2">
           {/* Main Image */}
           <div className="h-full">
             <img

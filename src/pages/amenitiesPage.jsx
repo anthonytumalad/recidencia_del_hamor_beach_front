@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
-import Image1 from "../assets/images/1.jpeg";
-import Image2 from "../assets/images/amenities.jpg";
-import Image3 from "../assets/images/1.jpeg";
-import Image4 from "../assets/images/1.jpeg";
-import Image5 from "../assets/images/1.jpeg";
+import Image1 from "../assets/images/pool.webp";
+import Image2 from "../assets/images/lounge.webp";
+import Image3 from "../assets/images/dine_1.webp";
+import Image4 from "../assets/images/act.webp";
+import Image5 from "../assets/images/act_2.webp";
+import Image6 from "../assets/images/accomadation3.webp";
+
 
 const galleryImages = {
   "All photos": [Image1, Image2, Image3, Image4, Image5],
   "Others": [Image1, Image2, Image5],
-  "Pools": [Image3, Image5],
-  "Lounge": [Image2, Image4],
-  "Activities": [Image1, Image3]
+  "Pools": [Image1, Image6],
+  "Lounge": [Image2, Image3],
+  "Activities": [Image4, Image5]
 };
 
 const categories = [
