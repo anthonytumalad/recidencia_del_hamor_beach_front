@@ -427,8 +427,7 @@ function HomePage() {
               Enjoy exclusive savings and the freedom to change your plans
             </p>
             <div className="flex items-center space-x-4 text-[15px]">
-              <Link to="/booking" target="_blank" rel="noopener noreferrer"
-                href="#"
+              <Link to="/booking"
                 className="px-10 py-2 text-white bg-[#518181] transition  relative overflow-hidden group"
               >
                 <span className="relative z-10">BOOK NOW</span>

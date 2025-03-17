@@ -235,7 +235,7 @@ const BookingForm = () => {
             <img src={Logo} alt="Trip.com Logo" className="h-30 w-40" />
         </div>
         <div className="flex items-center">
-            <Link to="/auth" target="_blank" rel="noopener noreferrer" className="bg-white text-blue-600 px-4 py-1 rounded-md text-sm">Log In / Sign Up</Link>
+            <Link to="/auth" className="bg-white text-blue-600 px-4 py-1 rounded-md text-sm">Log In / Sign Up</Link>
         </div>
     </header>
 

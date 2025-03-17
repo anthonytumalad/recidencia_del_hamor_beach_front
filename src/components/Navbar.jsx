@@ -46,11 +46,11 @@ const Navbar = () => {
               <a href="#" className="hover:text-gray-300 transition">ITALIANO</a>
             </div>
             <div className="flex space-x-4">
-              <Link to="/auth" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-gray-300 transition">
+              <Link to="/auth" className="flex items-center hover:text-gray-300 transition">
                 <UserPlus size={15} className="mr-1" />  
                 <span className="mr-1">LOG IN</span>
               </Link>
-              <Link to="/auth" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-gray-300 transition">
+              <Link to="/auth" className="flex items-center hover:text-gray-300 transition">
                 <LogIn size={15} className="mr-1" /> 
                 <span className="mr-1">SIGN UP</span>
               </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
 
             {/* Book Now button */}
             <div className="flex items-center space-x-4 text-[15px]">
-              <a to="/booking"  className="px-10 py-2 text-white bg-[#518181] transition relative overflow-hidden group"><span className="relative z-10">BOOK NOW</span></a>
+              <Link to="/booking" className="px-10 py-2 text-white bg-[#518181] transition relative overflow-hidden group"><span className="relative z-10">BOOK NOW</span></Link> 
             </div>
           </div>
         </div>
@@ -106,8 +106,8 @@ const Navbar = () => {
         
         {/* Middle bar - Account links */}
         <div className="bg-[#2A3B3B] text-white py-4 flex justify-center items-center gap-4 uppercase text-[13px]">
-          <Link to="/auth" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">Log In</Link>
-          <Link to="/auth" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">Sign Up</Link>
+          <Link to="/auth" className="hover:text-gray-300 transition">Log In</Link>
+          <Link to="/auth" className="hover:text-gray-300 transition">Sign Up</Link>
         </div>
         
         {/* Bottom bar - Menu, Logo, Book Now in a single row */}
@@ -125,16 +125,13 @@ const Navbar = () => {
           {/* Center Logo - Middle column */}
           <div className="flex justify-center">
             <Link to="/">
-              <a href="#">
                 <img src={Logo} alt="Resort Logo" className="h-15 w-auto" />
-              </a>
             </Link>
           </div>
           
           {/* Book Now button - Right column */}
           <div className="flex justify-end text-[13px] px-5">
-            <Link to="/booking" target="_blank" rel="noopener noreferrer"
-              href="#"
+            <Link to="/booking"
               className="text-white uppercase font-medium text-center"
             >
               Book Now

@@ -119,9 +119,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/auth" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white text-sm flex items-center">
+                <Link to="/auth" className="text-gray-300 hover:text-white text-sm flex items-center">
                   <ChevronRight className="h-4 w-4 mr-1" />
-                  Login
+                  Log In
                 </Link>
               </li>
             </ul>
