@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Raleway;
+  src: url("../src/assets/fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Oswald;
+  src: url("../src/assets/fonts/Oswald-Regular.ttf");
+}
+@import "tailwindcss";
+
+
+@theme{
+  --font-oswald: Oswald, "sans-serif";
+  --font-raleway: Raleway, "sans-serif";
+}
