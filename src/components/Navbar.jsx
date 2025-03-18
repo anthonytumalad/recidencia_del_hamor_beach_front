@@ -76,7 +76,7 @@ const Navbar = () => {
 
             {/* Book Now button */}
             <div className="flex items-center space-x-4 text-[15px]">
-              <Link to="/booking" className="px-10 py-2 text-white bg-[#518181] transition relative overflow-hidden group"><span className="relative z-10">BOOK NOW</span></Link> 
+              <Link to="/booking" target='_blank' className="px-10 py-2 text-white bg-[#518181] transition relative overflow-hidden group"><span className="relative z-10">BOOK NOW</span></Link> 
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Navbar = () => {
           
           {/* Book Now button - Right column */}
           <div className="flex justify-end text-[13px] px-5">
-            <Link to="/booking"
+            <Link to="/booking" target='_blank'
               className="text-white uppercase font-medium text-center"
             >
               Book Now
